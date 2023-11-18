@@ -249,6 +249,23 @@ ul {
 }
 
 /* formats-section */
+
+.carousel-button {
+  width: 44px;
+  height: 44px;
+  padding: 0px;
+  background-color: transparent;
+  fill: var(--color-primary-dark);
+  border: 1px solid var(--color-primary-dark);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel-button:hover {
+  background-color: var(--color-primary-dark);
+  fill: var(--color-primary-light);
+}
+
 .formats-list {
   display: flex;
   flex-wrap: wrap;
